@@ -1,0 +1,122 @@
+.left-content {
+    border: 1px solid #ddd;
+    width: 10%;
+    margin-top: 7.1rem;
+    height: 12.9rem;
+    border-right: transparent;
+    margin-left: 2%;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.left-header {
+    border-bottom: 1px solid #ddd;
+    height: 20px;
+    background-color: #fff;
+}
+
+
+/* .dayClickWindow {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -250px;
+    margin-left: -250px;
+    display: none;
+    z-index: 1;
+} */
+
+:host ::ng-deep .add-shift-container {
+    width: 450px;
+    border: 2px solid #1e90ff;
+    border-radius: 15px;
+    padding: 5px;
+    position: absolute;
+    background: #fff;
+    top: 10px;
+    left: 150px;
+    z-index: 100000;
+}
+
+
+/* :host ::ng-deep .add-shift-container:after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 15px;
+    border-top: 15px solid transparent;
+    border-right: 15px solid #1e90ff;
+    border-bottom: 15px solid transparent;
+    border-left: none;
+    background-color: #fff;
+} */
+
+:host ::ng-deep .time-input {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+:host ::ng-deep .shift-heading {
+    font-weight: bold;
+    color: #1e90ff;
+    margin: 5px 0px 16px 0px;
+}
+
+:host ::ng-deep #break-text {
+    padding: 0;
+    margin-top: 5px;
+}
+
+:host ::ng-deep #mi ns-text {
+    padding-left: 0px;
+    margin-top: 5px;
+}
+
+:host ::ng-deep .button-group {
+    margin-left: 5px;
+}
+
+
+/* :host ::ng-deep .role-select {
+    width: 89%;
+} */
+
+:host ::ng-deep .fa-clock-o {
+    font-size: large;
+}
+
+:host ::ng-deep #work-time {
+    margin-left: 10px;
+    width: 75%;
+    border-color: #ddd;
+    margin-bottom: 10px;
+}
+
+:host ::ng-deep i .fa-comment {
+    font-size: medium;
+}
+
+:host ::ng-deep .comment {
+    display: flex;
+    margin-left: 12px;
+}
+
+:host ::ng-deep #send-notifications {
+    margin-left: 37px;
+    margin-bottom: 20px;
+}
+
+:host ::ng-deep .form-group {
+    margin: 5px 0px 15px 0px;
+}
+
+:host ::ng-deep #break {
+    width: 40px;
+    padding: 0px;
+}
